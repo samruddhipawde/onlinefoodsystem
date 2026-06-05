@@ -1,0 +1,36 @@
+body{
+background:#f8f9fa;
+font-family:Arial,sans-serif;
+}
+
+.hero{
+background:linear-gradient(to right,#ff9800,#ff5722);
+color:white;
+padding:80px 20px;
+}
+
+.card img{
+height:220px;
+object-fit:cover;
+}
+
+.food-card{
+transition:0.3s;
+}
+
+.food-card:hover{
+transform:scale(1.05);
+}
+
+.special-card{
+background:#fff3cd;
+border-radius:10px;
+}
+
+.qty-btn{
+width:35px;
+}
+
+#cartItems .card{
+margin-bottom:15px;
+}
